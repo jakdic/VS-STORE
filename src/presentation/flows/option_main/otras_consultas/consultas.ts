@@ -8,10 +8,11 @@ export const flowConsultasPersonalizadas = addKeyword<Provider>(
   try {
     await provider.sendText({
       from,
-      text: "MAS INFORMES",
+      text: "*info gratis*",
     });
     await gotoFlow(flowMainOtrasConsultas);
   } catch (error) {
     console.log("Error sending text:", error);
   }
 });
+
