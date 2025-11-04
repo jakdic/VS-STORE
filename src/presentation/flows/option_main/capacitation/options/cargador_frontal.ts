@@ -5,15 +5,15 @@ import { flowMainCapacitacion } from "../main_capacitation";
 export const flowCapacitationCargadorFrontal = addKeyword<Provider>(
   "FLOW_CAPACITACION_CARGADOR_FRONTAL"
 ).addAction(async ({ from }, { provider, gotoFlow }) => {
-  await provider.sendVideo({
+  await provider.sendImage({
     from,
-    url: "https://simulacion-profesional.lat/bt/wl.mp4",
-    text: "*CARGADOR FRONTAL*",
+    url: "https://simulacion-profesional.lat/bt/dossancatv2.jpg",
+    text: "*Simulador de Cargador Frontal V2*",
   });
-  await provider.sendVoice({
+  await provider.sendImage({
     from,
-    url: "https://simulacion-profesional.lat/bt/wl.mp3",
-    delay: 10000,
+    url: "https://simulacion-profesional.lat/bt/carartiv2.jpg",
+    delay: 1000,
   });
   await provider.sendVideo({
     from,
@@ -23,3 +23,4 @@ export const flowCapacitationCargadorFrontal = addKeyword<Provider>(
 
   await gotoFlow(flowMainCapacitacion);
 });
+
