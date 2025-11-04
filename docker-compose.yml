@@ -1,0 +1,17 @@
+services:
+  autobot:
+    build: .
+    container_name: autobot-app
+    ports:
+      - "${PORT:-4848}:${PORT:-4848}"
+    env_file:
+      - .env
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+    networks:
+      - autobot-network
+
+networks:
+  autobot-network:
+    driver: bridge
