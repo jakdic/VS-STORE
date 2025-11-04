@@ -13,7 +13,7 @@ export const flowWelcome = addKeyword<Provider>(EVENTS.WELCOME).addAction(
       });
       await provider.sendImage({
         from,
-        url: "https://machine-training.com/bt/man.png",
+        url: "https://machine-training.com/bt/ok.jpeg",
         text: `Mi nombre es *Jonny Velard*.
 _Te cuento rápido: eh trabajado más de 16 años en SIMLOG, una de las empresas pioneras en simuladores de maquinaria pesada. Ahí fui parte del equipo que los desarrollaba desde cero_. 💡
 _Hoy, con toda esa experiencia y la colaboración de algunos colegas, creó Velar-Store, una tienda especializada en simuladores de operación de maquinaria pesada, pensados para que entrenes como si estuvieras dentro de la cabina, pero con menos costo y más seguridad._`,
@@ -21,7 +21,7 @@ _Hoy, con toda esa experiencia y la colaboración de algunos colegas, creó Vela
 
       await provider.sendImage({
         from,
-        url: "https://simulacion-profesional.lat/bt/ok.jpg",
+        url: "https://simulacion-profesional.lat/bt/banner3.png",
         delay: 1000,
       });
 
@@ -31,3 +31,4 @@ _Hoy, con toda esa experiencia y la colaboración de algunos colegas, creó Vela
     }
   }
 );
+
