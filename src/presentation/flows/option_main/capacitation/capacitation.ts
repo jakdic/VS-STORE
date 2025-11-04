@@ -5,14 +5,15 @@ import { flowMainCapacitacion } from "./main_capacitation";
 export const flowCapacitation = addKeyword<Provider>(
   "FLOW_CAPACITACION"
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
-  await provider.sendVideo({
+  await provider.sendImage({
     from,
-    url: "https://simulacion-profesional.lat/bt/progms.mp4",
+    url: "https://simulacion-profesional.lat/bt/P1020289.png",
   });
-  await provider.sendVoice({
+  await provider.sendImage({
     from,
-    url: "https://simulacion-profesional.lat/bt/pemor.mp3",
+    url: "https://simulacion-profesional.lat/bt/banner1.jpg",
     delay: 1600,
   });
   gotoFlow(flowMainCapacitacion);
 });
+
