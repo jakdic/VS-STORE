@@ -25,8 +25,8 @@ export const flowMainCapacitacion = addKeyword<Provider>("FLOW_CAPACITACION")
         list: {
           button: "Selecciona una opción",
           content: MenuDataCapacitacion,
-          title: "INFORMES",
-          description: `💪 _Esta información es de tu interes_ 👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽..`,
+          title: "𝘾𝘼𝙋𝘼𝘾𝙄𝙏𝘼𝘾𝙄𝙊́𝙉",
+          description: `💪 _Te ayudamos a crecer y cumplir con tus objetivos con los programas de formación_ 👇🏽👇🏽👇🏽👇🏽👇🏽👇🏽..`,
         },
       });
     } catch (error) {

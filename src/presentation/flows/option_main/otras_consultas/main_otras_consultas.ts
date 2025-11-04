@@ -19,7 +19,7 @@ export const flowMainOtrasConsultas = addKeyword<Provider>(
         from,
         list: {
           button: "Selecciona una opción",
-          title: "*FREE BOX*",
+          title: "*OTRAS CONSULTAS*",
           description:
             "Encuentra información adicional o realiza otra solicitud aquí.",
           content: MenuDataOtrasConsultas,

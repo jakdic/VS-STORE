@@ -7,13 +7,13 @@ export const flowCapacitationRodilloCompactador = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://simulacion-profesional.lat/bt/rola.mp4",
-    text: "*SIMULACION 6*",
+    url: "https://machine-training.com/bt/rola.mp4",
+    text: "*RODILLO COMPACTADOR*",
   });
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/rola.mp3",
-    delay: 1000,
+    url: "https://machine-training.com/bt/rola.mp3",
+    delay: 10000,
   });
   await gotoFlow(flowMainCapacitacion);
 });

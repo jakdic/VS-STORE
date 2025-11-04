@@ -8,11 +8,11 @@ export const flowOtrasConsultas = addKeyword<Provider>(
   try {
     await provider.sendImage({
       from,
-      url: "https://simulacion-profesional.lat/bt/aten.png",
+      url: "https://machine-training.com/bt/aten.png",
     });
     await provider.sendVoice({
       from,
-      url: "https://simulacion-profesional.lat/bt/atenc.mp3",
+      url: "https://machine-training.com/bt/atenc.mp3",
     });
 
    await gotoFlow(flowMainOtrasConsultas);

@@ -7,14 +7,14 @@ export const flowCertificacionMaquinasCertificables = addKeyword<Provider>(
 ).addAction(async ({ from }, { provider , gotoFlow}) => {
   await provider.sendImage({
     from,
-    url: "https://simulacion-profesional.lat/bt/cert.png",
-    text: "INFOTECK",
+    url: "https://machine-training.com/bt/cert.png",
+    text: "*LAS MÁQUINAS EN LAS CUALES TE PODEMOS CERTIFICAR*\n\nLas maquinas certificables por competencias laborales son:\n* Excavadoras\n* Retroexcavadoras\n* Cargador frontal\n* Tractor de Oruga\n* Motoniveladora\n* Rodillo Compactador\n* Otros",
   });
 
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/certis.mp3",
-    delay: 1000,
+    url: "https://machine-training.com/bt/certis.mp3",
+    delay: 10000,
   });
   await gotoFlow(flowMainCertification)
 });

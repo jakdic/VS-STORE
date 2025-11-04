@@ -6,12 +6,12 @@ export const flowCalificationBot = addKeyword<Provider>(
 ).addAction(async ({ from }, { provider, endFlow }) => {
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/alquiler.mp3",
+    url: "https://machine-training.com/bt/alquiler.mp3",
   });
   await provider.sendVideo({
     from,
-    url: "https://simulacion-profesional.lat/bt/simu.mp4",
-    text: "INFORMETRION 6",
+    url: "https://machine-training.com/bt/simu.mp4",
+    text: "💬 *¡Hey!* 🖐🏻\nAprovecha nuestra *PROMOCIÓN DE OCTUBRE* 🎉\n\n🚜 La *PRIMERA HORA* en el alquiler del *simulador de maquinaria pesada* es *¡TOTALMENTE GRATIS!* 🕐💸\n\n🦾 Nuestros simuladores están *LICENCIADOS y ACREDITADOS* ✅ para procesos de *formación en maquinaria pesada*.",
   });
 
   endFlow();

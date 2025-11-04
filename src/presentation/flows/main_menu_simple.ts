@@ -18,7 +18,7 @@ export const flowMainMenuSimple = addKeyword<Provider>("FLOW_MAIN")
           button: "Selecciona una opción",
           content: MenuData,
           title: "",
-          description: `INFORMACION`,
+          description: `𝙈𝙀𝙉𝙐 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝙏𝙄𝙑𝙊`,
         },
       });
     } catch (error) {

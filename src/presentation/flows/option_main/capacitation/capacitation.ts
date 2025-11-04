@@ -7,12 +7,12 @@ export const flowCapacitation = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://simulacion-profesional.lat/bt/progms.mp4",
+    url: "https://machine-training.com/bt/progms.mp4",
   });
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/pemor.mp3",
-    delay: 1600,
+    url: "https://machine-training.com/bt/pemor.mp3",
+    delay: 16000,
   });
   gotoFlow(flowMainCapacitacion);
 });

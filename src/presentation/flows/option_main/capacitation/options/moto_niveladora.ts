@@ -7,13 +7,13 @@ export const flowCapacitationMotoNiveladora = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://simulacion-profesional.lat/bt/mtn.mp4",
+    url: "https://machine-training.com/bt/mtn.mp4",
     text: "*MOTONIVELADORA*",
   });
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/mtn.mp3",
-    delay: 1000,
+    url: "https://machine-training.com/bt/mtn.mp3",
+    delay: 10000,
   });
 
   await gotoFlow(flowMainCapacitacion);

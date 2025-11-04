@@ -7,13 +7,13 @@ export const flowCapacitationTractorSobreOrugas = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://simulacion-profesional.lat/bt/dzr.mp4",
-    text: "*SIMULACION 5*",
+    url: "https://machine-training.com/bt/dzr.mp4",
+    text: "*TRACTOR SOBRE ORUGAS*",
   });
   await provider.sendVoice({
     from,
-    url: "https://simulacion-profesional.lat/bt/dzr.mp3",
-    delay: 1000,
+    url: "https://machine-training.com/bt/dzr.mp3",
+    delay: 10000,
   });
 
   await gotoFlow(flowMainCapacitacion);

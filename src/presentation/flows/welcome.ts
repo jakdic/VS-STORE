@@ -7,22 +7,19 @@ export const flowWelcome = addKeyword<Provider>(EVENTS.WELCOME).addAction(
     try {
       await provider.sendImage({
         from,
-        url: "https://simulacion-profesional.lat/bt/banner1.png",
-        text: `*👋 *¡Hola! Bienvenido* 👋
- 🚜💻 *Velard-Store* 💻🚜*`,
+        url: "https://machine-training.com/bt/log1.png",
+        text: `*ENTRENAMIENTOS DE TALLA 🌍🌍🌍 MUNDIAL🌍🌍🌍*`,
       });
       await provider.sendImage({
         from,
         url: "https://machine-training.com/bt/man.png",
-        text: `Mi nombre es *Jonny Velard*.
-_Te cuento rápido: eh trabajado más de 16 años en SIMLOG, una de las empresas pioneras en simuladores de maquinaria pesada. Ahí fui parte del equipo que los desarrollaba desde cero_. 💡
-_Hoy, con toda esa experiencia y la colaboración de algunos colegas, creó Velar-Store, una tienda especializada en simuladores de operación de maquinaria pesada, pensados para que entrenes como si estuvieras dentro de la cabina, pero con menos costo y más seguridad._`,
+        text: `Hola ${name}\n_Soy *Jakcob* hoy te atendere_:`,
       });
 
-      await provider.sendImage({
+      await provider.sendVoice({
         from,
-        url: "https://simulacion-profesional.lat/bt/ok.jpg",
-        delay: 1000,
+        url: "https://machine-training.com/bt/busca.mp3",
+        delay: 5000,
       });
 
       await gotoFlow(flowMainMenuSimple);
