@@ -19,10 +19,11 @@ export const flowMainCertification = addKeyword<Provider>(
       await provider.sendList({
         from: ctx.from,
         list: {
-          button: "Selecciona una opción",
-          title: "CURSOS",
+          button: "Selecciona una opci贸n",
+          title: "CERTIFICACION",
           description:
-            "*INFORMACION 3,
+            "馃徑馃憞馃徑馃憞馃徑馃憞馃徑",
+          content: MenuDataCertification,
         },
       });
     } catch (error) {
@@ -64,3 +65,4 @@ export const flowMainCertification = addKeyword<Provider>(
       console.log("Error sending text:", error);
     }
   });
+
