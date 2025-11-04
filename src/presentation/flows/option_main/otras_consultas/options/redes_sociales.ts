@@ -6,21 +6,7 @@ export const flowRedesSociales = addKeyword<Provider>(
   "FLOW_REDES_SOCIALES"
 ).addAction(async ({ from }, { provider, gotoFlow }) => {
   try {
-    const message = `🌐 *Redes sociales y promociones*  
-
-📘 *Facebook:*  
-https://www.facebook.com/share/16GopzLAB2  
-
-🎵 *TikTok:*  
-https://www.tiktok.com/@machinetrainingjs?lang=es  
-
-🎁 *Mira nuestras promociones:*  
-- Promoción 1: https://machine-training.com/p1.html  
-- Promoción 2: https://machine-training.com/p2.html  
-- Promoción 3: https://machine-training.com/p3.html`;
-    await provider.sendText({
-      from,
-      text: message,
+    const message = `MENSAJES DIVINO,
     });
 
     // Redirige al flujo principal de otras consultas
@@ -30,7 +16,7 @@ https://www.tiktok.com/@machinetrainingjs?lang=es
 
     await provider.sendText({
       from,
-      text: "⚠️ Ocurrió un error al enviar la información de redes sociales. Por favor, intenta nuevamente más tarde.",
+      text: "++.",
     });
   }
 });

@@ -20,10 +20,9 @@ export const flowMainCertification = addKeyword<Provider>(
         from: ctx.from,
         list: {
           button: "Selecciona una opción",
-          title: "CERTIFICACION",
+          title: "CURSOS",
           description:
-            "*_Te brindare toda la información, respecto a la certificación de competencias laborales MTPE_* [🇵🇪]👇🏽👇🏽👇🏽👇🏽",
-          content: MenuDataCertification,
+            "*INFORMACION 3,
         },
       });
     } catch (error) {

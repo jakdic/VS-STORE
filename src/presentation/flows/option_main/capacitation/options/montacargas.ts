@@ -7,12 +7,12 @@ export const flowCapacitationMontacargas = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://machine-training.com/bt/mtrc.mp4",
+    url: "https://simulacion-profesional.lat/bt/mtrc.mp4",
   });
   await provider.sendVoice({
     from,
-    url: "https://machine-training.com/bt/mtrc.mp3",
-    delay: 10000,
+    url: "https://simulacion-profesional.lat/bt/mtrc.mp3",
+    delay: 1000,
   });
     await gotoFlow(flowMainCapacitacion);
 });

@@ -7,18 +7,18 @@ export const flowCapacitationExcavadora = addKeyword<Provider>(
 ).addAction(async ({ from }, { provider, gotoFlow }) => {
   await provider.sendVideo({
     from,
-    url: "https://machine-training.com/bt/exc.mp4",
+    url: "https://simulacion-profesional.lat/bt/exc.mp4",
     text: "*EXCAVADORA HIDRAULICA*",
   });
   await provider.sendVoice({
     from,
-    url: "https://machine-training.com/bt/exca.mp3",
-    delay: 10000,
+    url: "https://simulacion-profesional.lat/bt/exca.mp3",
+    delay: 1000,
   });
   await provider.sendVideo({
     from,
-    url: "https://machine-training.com/bt/exc2.mp4",
-    text: "*🏁 LOS RESULTADOS*\n\n*_🔥 Dominio correcto de la máquina:_*\n\n🚜 _Destresa en la operaión_\n🏗️ _Aplicación de ángulos de trabajo_\n⛏️ _Resultados visibles y medibles_",
+    url: "https://simulacion-profesional.lat/bt/exc2.mp4",
+    text: "INFO2",
   });
 
   await gotoFlow(flowMainCapacitacion);

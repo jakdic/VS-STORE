@@ -8,7 +8,7 @@ export const flowConsultasPersonalizadas = addKeyword<Provider>(
   try {
     await provider.sendText({
       from,
-      text: "💬 *¡Hey!* 🖐🏻\nPara darle una atención personalizada y súper rapida, por favor bríndame los siguientes datos:\n 👷🏻 *Nombre y Apellidos*:\n🪪 *DIN:* \n🎉 *Edad:* \n🎓 *Interés en que programa:*\n📲 *Horario disponible para llamarte:*\n\n _Mientras tanto, te invito a conocer los increibles resultados del alcance de nuestro programa de formación_ 👉🏻 https://machine-training.com/evidencia.html",
+      text: "MAS INFORMES",
     });
     await gotoFlow(flowMainOtrasConsultas);
   } catch (error) {
