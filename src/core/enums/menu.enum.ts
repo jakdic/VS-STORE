@@ -21,7 +21,7 @@ export enum MenuLabelsCertificado {
   BENEFICIOS = "CURSO 2",
   REQUISITOS = "CURSO 3",
   MAQUINAS_CERTIFICABLES = "CURSO 4",
-  // NORMALIZACION = "NORMALIZACION", 
+  NORMALIZACION = "CURSO 5", 
 }
 
 export enum MenuLabelsOtrasConsultas {
