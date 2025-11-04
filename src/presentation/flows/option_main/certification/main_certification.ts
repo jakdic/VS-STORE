@@ -19,10 +19,10 @@ export const flowMainCertification = addKeyword<Provider>(
       await provider.sendList({
         from: ctx.from,
         list: {
-          button: "Selecciona una opción",
+          button: "Selecciona una opci贸n",
           title: "CERTIFICACION",
           description:
-            "*_Te brindare toda la información, respecto a la certificación de competencias laborales MTPE_* [🇵🇪]👇🏽👇🏽👇🏽👇🏽",
+            "馃憞馃徑",
           content: MenuDataCertification,
         },
       });

@@ -7,12 +7,12 @@ export const flowCapacitationMinicargador = addKeyword<Provider>(
 ).addAction(async ({ from }, { gotoFlow, provider }) => {
   await provider.sendVideo({
     from,
-    url: "https://machine-training.com/bt/mini.mp4",
+    url: "https://simulacion-profesional.lat/bt/mini.mp4",
   });
   await provider.sendVoice({
     from,
-    url: "https://machine-training.com/bt/mini.mp3",
-    delay: 10000,
+    url: "https://simulacion-profesional.lat/bt/mini.mp3",
+    delay: 1000,
   });
   await gotoFlow(flowMainCapacitacion);
 });
