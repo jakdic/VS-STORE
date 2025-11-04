@@ -9,11 +9,7 @@ export const flowCapacitation = addKeyword<Provider>(
     from,
     url: "https://simulacion-profesional.lat/bt/P1020289.png",
   });
-  await provider.sendImage({
-    from,
-    url: "https://simulacion-profesional.lat/bt/banner1.jpg",
-    delay: 1600,
-  });
   gotoFlow(flowMainCapacitacion);
 });
+
 
